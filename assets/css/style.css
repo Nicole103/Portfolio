@@ -1,4 +1,7 @@
 
+#navbar{
+    color: aliceblue;
+}
 .jumbotron{
     font-family: 'Cormorant Garamond', serif;
     
@@ -26,9 +29,4 @@ img {
 }
 p{
     font-family: 'Roboto', sans-serif;
-}
-li{
-    position: relative;
-    float:Right;
-
 }
