@@ -1,0 +1,34 @@
+
+.jumbotron{
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font font-weight: bold;
+   
+
+}
+
+body {
+   background-image: url("../images/d2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   font-family: 'Cormorant Garamond', serif;
+    
+}
+
+img {
+    height: 350px;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    position: relative;
+    float:Right;
+
+}
