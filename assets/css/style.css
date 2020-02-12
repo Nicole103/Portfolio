@@ -4,23 +4,38 @@
 }
 .jumbotron{
     font-family: 'Cormorant Garamond', serif;
+
     
 }
 
 h2 {
     font-family: 'Cormorant Garamond', serif;
-    font font-weight: bold;
+    font font-weight: bolder;
    
 
 }
 
+@media (max-width: 2000px){
 body {
-   background-image: url("../images/d2.jpg");
+   background-image: url("../images/ameer-basheer-Xrx3WWyrwes-unsplash.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-   position: relative;
+   background-position: top center;
+   width: 100%;
+   /* position: relative; */
    font-family: 'Cormorant Garamond', serif;
-    
+}
+}
+
+@media (max-width: 1400px){
+    body {
+        background-image: url("../images/ameer-basheer-Xrx3WWyrwes-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        background-attachment: fixed;
+        width: 100%;
+    }
 }
 
 img {
@@ -29,4 +44,14 @@ img {
 }
 p{
     font-family: 'Roboto', sans-serif;
+}
+
+#game {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.nav-link {
+    font-size: 24px;
 }
